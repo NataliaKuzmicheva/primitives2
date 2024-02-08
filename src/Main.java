@@ -6,13 +6,11 @@ public class Main {
 
 
         if (addition >= bonus) {
-            int amountOfBonus = addition/bonus;
+            int amountOfBonus = addition / bonus;
             System.out.println((("На ваш счет зачислено ") + (initAccount + addition + amountOfBonus) + (" рублей/рубля")));
             System.out.println(("Количество бонусов = ") + (amountOfBonus));
         } else {
             System.out.println((("На ваш счет зачислено ") + (initAccount + addition) + (" рублей/рубля")));
         }
-
-
     }
 }
